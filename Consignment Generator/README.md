@@ -38,14 +38,19 @@ The checksum is calculated by
 Please write a function that accepts a carrier account (POJO representing the below object is fine) as a parameter and generates the next connote number in that series.
 ```
 # input
-{
-  "carrierName":"FreightmateCourierCo",
+curl -X POST \
+  http://localhost:8090/api/consignment/generate \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 073f5244-9ab0-64ec-7a11-503fa83cecdd' \
+  -d '{
+  "carrierName":"FreightMateCourierCo",
   "accountNumber":"123ABC",
   "digits":10,
   "lastUsedIndex":19604,
   "rangeStart":19000,
   "rangeEnd":20000
-}
+}'
 # output
 FMCC123ABC00000196051
 ```
