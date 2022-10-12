@@ -2,7 +2,7 @@
 
 
 ## Prerequisites
-#### Spring Boot, Maven, JDK 1.8 or higher
+#### Spring Boot, Maven, Junit + Mockito, JDK 1.8 or higher
 
 ## Definition
 
