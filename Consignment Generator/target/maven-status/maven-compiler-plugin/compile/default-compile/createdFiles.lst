@@ -1,0 +1,7 @@
+com\freightmate\consignment\ConsignmentGeneratorApplication.class
+com\freightmate\consignment\exception\ConsignmentFieldValidation.class
+com\freightmate\consignment\controller\ValidationHandler.class
+com\freightmate\consignment\model\CarrierAccount.class
+com\freightmate\consignment\service\ConsignmentGeneratorService.class
+com\freightmate\consignment\model\SummationHolder.class
+com\freightmate\consignment\controller\ConsignmentGeneratorController.class
